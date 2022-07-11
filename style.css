@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url('icecream.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    height: 80%;
+    max-width: 90%;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px 2px #DDD;
+    overflow: hidden;
+}
+
+.leftSide {
+    width: 35%;
+    float: left;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    top: -20vh;
+    gap: 1vw;
+    background-color: rgb(255, 166, 166, 0.6);
+    height: auto;
+    padding: 15px 0;
+    font-family: 'Calistoga';
+    color: white;
+}
+
+.rightSide {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    float: left;
+    height: 100%;
+    font-family: 'Calistoga';
+    font-size: 20px;
+    padding: 10px;
+}
+
+.rightText {
+
+}
+
+.formInputs {
+    padding: 2rem 2rem;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.formRows {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.input {
+    width: 30%;
+}
+
+.button-area {
+    padding-left: 2rem;
+}
+
+.button-area a {
+    color: rgb(255, 166, 166);
+    text-decoration: none;
+}
+
+button {
+    background-color:  rgb(255, 166, 166);
+    border: none;
+    border-radius: 6px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}

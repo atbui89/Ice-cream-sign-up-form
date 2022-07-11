@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Calistoga&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Ice cream of the Month Sign-Up Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="leftSide">
+            <div class="logo">
+                <img src="ice-cream.png" height="70">
+                <h1>Odin Ice Cream</h1>
+            </div>
+        </div>
+        <div class="rightSide">
+            <div class="rightText">
+                <p>This is not a real online service!</p>
+                <p>Sign up now to get 2 pints of delicous, handmade ice cream delivered straight to your door every month!</p>
+                <p>This offer won't last long!</p>
+            </div>
+            <form action="#">
+                <div class="formInputs">
+                    <p class="formTitle">Let's do this!</p>
+
+                    <div class="formRows">
+                        <div class="input">
+                            <label for="first-name">First name</label>
+                            <input type="text" name="first-name" id="first-name" required>
+                        </div>
+                        
+                        <div class="input">
+                            <label for="last-name">Last name</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+                    </div>
+
+                    <div class="formRows">
+                        <div class="input">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        
+                        <div class="input">
+                            <label for="phone-number">Phone number</label>
+                            <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
+                        </div>
+                    </div>
+
+                    <div class="formRows">
+                        <div class="input">
+                            <label for="password">Password</label>
+                            <input type="password" name="passwor" id="passwor" required>
+                        </div>
+                        
+                        <div class="input">
+                            <label for="confirm-password">Confirm password</label>
+                            <input type="password" name="confirm-password" id="confirm-password" required>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="button-area">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
